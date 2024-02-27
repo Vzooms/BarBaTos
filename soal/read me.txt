@@ -1,0 +1,5 @@
+composer install
+composer update (if had some error on vendor)
+php artisan migrate:fresh --seed
+php artisan storage:link
+copy images folder to projek-akhir-lab/storage/app/public
