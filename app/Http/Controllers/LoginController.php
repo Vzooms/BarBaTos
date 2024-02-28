@@ -4,7 +4,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Cookie;
-class loginController extends Controller
+class LoginController extends Controller
 {
     public function goToLogin(){return view('login', ["title" => "Login"]);}
     public function authenticate(Request $req)
